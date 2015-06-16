@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		268F97891B30B8BC009D2247 /* JSONCodable.h in Headers */ = {isa = PBXBuildFile; fileRef = 268F97881B30B8BC009D2247 /* JSONCodable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		268F97901B30B8BC009D2247 /* JSONCodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268F97851B30B8BC009D2247 /* JSONCodable.framework */; };
+		268F97951B30B8BC009D2247 /* JSONCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F97941B30B8BC009D2247 /* JSONCodableTests.swift */; };
+		268F97A01B30B8CC009D2247 /* JSONCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F979F1B30B8CC009D2247 /* JSONCodable.swift */; };
+		268F97B01B30B8E4009D2247 /* JSONCodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268F97A61B30B8E4009D2247 /* JSONCodable.framework */; };
+		268F97CA1B30B90E009D2247 /* JSONCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F979F1B30B8CC009D2247 /* JSONCodable.swift */; };
+		268F97CB1B30B911009D2247 /* JSONCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F979F1B30B8CC009D2247 /* JSONCodable.swift */; };
+		268F97CC1B30B9E1009D2247 /* JSONCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F97941B30B8BC009D2247 /* JSONCodableTests.swift */; };
+		268F97CF1B30BA50009D2247 /* TestUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F97CD1B30BA29009D2247 /* TestUser.swift */; };
+		268F97D01B30BA50009D2247 /* TestUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268F97CD1B30BA29009D2247 /* TestUser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		268F97911B30B8BC009D2247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 268F977C1B30B8BC009D2247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 268F97841B30B8BC009D2247;
+			remoteInfo = JSONCodable;
+		};
+		268F97B11B30B8E4009D2247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 268F977C1B30B8BC009D2247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 268F97A51B30B8E4009D2247;
+			remoteInfo = JSONCodable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		268F97851B30B8BC009D2247 /* JSONCodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		268F97881B30B8BC009D2247 /* JSONCodable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONCodable.h; sourceTree = "<group>"; };
+		268F978A1B30B8BC009D2247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268F978F1B30B8BC009D2247 /* JSONCodableTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JSONCodableTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		268F97941B30B8BC009D2247 /* JSONCodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONCodableTests.swift; sourceTree = "<group>"; };
+		268F97961B30B8BC009D2247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268F979F1B30B8CC009D2247 /* JSONCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONCodable.swift; path = ../../JSONCodable.swift; sourceTree = "<group>"; };
+		268F97A61B30B8E4009D2247 /* JSONCodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		268F97AF1B30B8E4009D2247 /* JSONCodableTests-Mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JSONCodableTests-Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		268F97C21B30B901009D2247 /* JSONCodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		268F97CD1B30BA29009D2247 /* TestUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		268F97811B30B8BC009D2247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268F978C1B30B8BC009D2247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268F97901B30B8BC009D2247 /* JSONCodable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268F97A21B30B8E4009D2247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268F97AC1B30B8E4009D2247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268F97B01B30B8E4009D2247 /* JSONCodable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268F97BE1B30B901009D2247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		268F977B1B30B8BC009D2247 = {
+			isa = PBXGroup;
+			children = (
+				268F97871B30B8BC009D2247 /* JSONCodable */,
+				268F97931B30B8BC009D2247 /* JSONCodableTests */,
+				268F97861B30B8BC009D2247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		268F97861B30B8BC009D2247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				268F97851B30B8BC009D2247 /* JSONCodable.framework */,
+				268F978F1B30B8BC009D2247 /* JSONCodableTests-iOS.xctest */,
+				268F97A61B30B8E4009D2247 /* JSONCodable.framework */,
+				268F97AF1B30B8E4009D2247 /* JSONCodableTests-Mac.xctest */,
+				268F97C21B30B901009D2247 /* JSONCodable.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		268F97871B30B8BC009D2247 /* JSONCodable */ = {
+			isa = PBXGroup;
+			children = (
+				268F979F1B30B8CC009D2247 /* JSONCodable.swift */,
+				268F97881B30B8BC009D2247 /* JSONCodable.h */,
+				268F978A1B30B8BC009D2247 /* Info.plist */,
+			);
+			path = JSONCodable;
+			sourceTree = "<group>";
+		};
+		268F97931B30B8BC009D2247 /* JSONCodableTests */ = {
+			isa = PBXGroup;
+			children = (
+				268F97941B30B8BC009D2247 /* JSONCodableTests.swift */,
+				268F97961B30B8BC009D2247 /* Info.plist */,
+				268F97CD1B30BA29009D2247 /* TestUser.swift */,
+			);
+			path = JSONCodableTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		268F97821B30B8BC009D2247 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268F97891B30B8BC009D2247 /* JSONCodable.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268F97A31B30B8E4009D2247 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268F97BF1B30B901009D2247 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		268F97841B30B8BC009D2247 /* JSONCodable-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268F97991B30B8BC009D2247 /* Build configuration list for PBXNativeTarget "JSONCodable-iOS" */;
+			buildPhases = (
+				268F97801B30B8BC009D2247 /* Sources */,
+				268F97811B30B8BC009D2247 /* Frameworks */,
+				268F97821B30B8BC009D2247 /* Headers */,
+				268F97831B30B8BC009D2247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JSONCodable-iOS";
+			productName = JSONCodable;
+			productReference = 268F97851B30B8BC009D2247 /* JSONCodable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		268F978E1B30B8BC009D2247 /* JSONCodableTests-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268F979C1B30B8BC009D2247 /* Build configuration list for PBXNativeTarget "JSONCodableTests-iOS" */;
+			buildPhases = (
+				268F978B1B30B8BC009D2247 /* Sources */,
+				268F978C1B30B8BC009D2247 /* Frameworks */,
+				268F978D1B30B8BC009D2247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				268F97921B30B8BC009D2247 /* PBXTargetDependency */,
+			);
+			name = "JSONCodableTests-iOS";
+			productName = JSONCodableTests;
+			productReference = 268F978F1B30B8BC009D2247 /* JSONCodableTests-iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		268F97A51B30B8E4009D2247 /* JSONCodable-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268F97B71B30B8E4009D2247 /* Build configuration list for PBXNativeTarget "JSONCodable-Mac" */;
+			buildPhases = (
+				268F97A11B30B8E4009D2247 /* Sources */,
+				268F97A21B30B8E4009D2247 /* Frameworks */,
+				268F97A31B30B8E4009D2247 /* Headers */,
+				268F97A41B30B8E4009D2247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JSONCodable-Mac";
+			productName = JSONCodable;
+			productReference = 268F97A61B30B8E4009D2247 /* JSONCodable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		268F97AE1B30B8E4009D2247 /* JSONCodableTests-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268F97BA1B30B8E4009D2247 /* Build configuration list for PBXNativeTarget "JSONCodableTests-Mac" */;
+			buildPhases = (
+				268F97AB1B30B8E4009D2247 /* Sources */,
+				268F97AC1B30B8E4009D2247 /* Frameworks */,
+				268F97AD1B30B8E4009D2247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				268F97B21B30B8E4009D2247 /* PBXTargetDependency */,
+			);
+			name = "JSONCodableTests-Mac";
+			productName = JSONCodableTests;
+			productReference = 268F97AF1B30B8E4009D2247 /* JSONCodableTests-Mac.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		268F97C11B30B901009D2247 /* JSONCodable-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268F97C71B30B901009D2247 /* Build configuration list for PBXNativeTarget "JSONCodable-watchOS" */;
+			buildPhases = (
+				268F97BD1B30B901009D2247 /* Sources */,
+				268F97BE1B30B901009D2247 /* Frameworks */,
+				268F97BF1B30B901009D2247 /* Headers */,
+				268F97C01B30B901009D2247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JSONCodable-watchOS";
+			productName = JSONCodable;
+			productReference = 268F97C21B30B901009D2247 /* JSONCodable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		268F977C1B30B8BC009D2247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = matthewcheok;
+				TargetAttributes = {
+					268F97841B30B8BC009D2247 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					268F978E1B30B8BC009D2247 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					268F97A51B30B8E4009D2247 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					268F97AE1B30B8E4009D2247 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					268F97C11B30B901009D2247 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 268F977F1B30B8BC009D2247 /* Build configuration list for PBXProject "JSONCodable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 268F977B1B30B8BC009D2247;
+			productRefGroup = 268F97861B30B8BC009D2247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				268F97841B30B8BC009D2247 /* JSONCodable-iOS */,
+				268F978E1B30B8BC009D2247 /* JSONCodableTests-iOS */,
+				268F97A51B30B8E4009D2247 /* JSONCodable-Mac */,
+				268F97AE1B30B8E4009D2247 /* JSONCodableTests-Mac */,
+				268F97C11B30B901009D2247 /* JSONCodable-watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		268F97831B30B8BC009D2247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268F978D1B30B8BC009D2247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268F97A41B30B8E4009D2247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268F97AD1B30B8E4009D2247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268F97C01B30B901009D2247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		268F97801B30B8BC009D2247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268F97A01B30B8CC009D2247 /* JSONCodable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268F978B1B30B8BC009D2247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268F97CF1B30BA50009D2247 /* TestUser.swift in Sources */,
+				268F97951B30B8BC009D2247 /* JSONCodableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268F97A11B30B8E4009D2247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268F97CB1B30B911009D2247 /* JSONCodable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268F97AB1B30B8E4009D2247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268F97D01B30BA50009D2247 /* TestUser.swift in Sources */,
+				268F97CC1B30B9E1009D2247 /* JSONCodableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268F97BD1B30B901009D2247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268F97CA1B30B90E009D2247 /* JSONCodable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		268F97921B30B8BC009D2247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 268F97841B30B8BC009D2247 /* JSONCodable-iOS */;
+			targetProxy = 268F97911B30B8BC009D2247 /* PBXContainerItemProxy */;
+		};
+		268F97B21B30B8E4009D2247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 268F97A51B30B8E4009D2247 /* JSONCodable-Mac */;
+			targetProxy = 268F97B11B30B8E4009D2247 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		268F97971B30B8BC009D2247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		268F97981B30B8BC009D2247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		268F979A1B30B8BC009D2247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JSONCodable/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcheok.JSONCodable;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		268F979B1B30B8BC009D2247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JSONCodable/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcheok.JSONCodable;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		268F979D1B30B8BC009D2247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSONCodableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcheok.JSONCodableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		268F979E1B30B8BC009D2247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSONCodableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcheok.JSONCodableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		268F97B81B30B8E4009D2247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = JSONCodable/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcheok.JSONCodable;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		268F97B91B30B8E4009D2247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = JSONCodable/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcheok.JSONCodable;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		268F97BB1B30B8E4009D2247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JSONCodableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcheok.JSONCodableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		268F97BC1B30B8E4009D2247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JSONCodableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcheok.JSONCodableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		268F97C81B30B901009D2247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JSONCodable/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcheok.JSONCodable;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		268F97C91B30B901009D2247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JSONCodable/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcheok.JSONCodable;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		268F977F1B30B8BC009D2247 /* Build configuration list for PBXProject "JSONCodable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268F97971B30B8BC009D2247 /* Debug */,
+				268F97981B30B8BC009D2247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268F97991B30B8BC009D2247 /* Build configuration list for PBXNativeTarget "JSONCodable-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268F979A1B30B8BC009D2247 /* Debug */,
+				268F979B1B30B8BC009D2247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		268F979C1B30B8BC009D2247 /* Build configuration list for PBXNativeTarget "JSONCodableTests-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268F979D1B30B8BC009D2247 /* Debug */,
+				268F979E1B30B8BC009D2247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		268F97B71B30B8E4009D2247 /* Build configuration list for PBXNativeTarget "JSONCodable-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268F97B81B30B8E4009D2247 /* Debug */,
+				268F97B91B30B8E4009D2247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		268F97BA1B30B8E4009D2247 /* Build configuration list for PBXNativeTarget "JSONCodableTests-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268F97BB1B30B8E4009D2247 /* Debug */,
+				268F97BC1B30B8E4009D2247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		268F97C71B30B901009D2247 /* Build configuration list for PBXNativeTarget "JSONCodable-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268F97C81B30B901009D2247 /* Debug */,
+				268F97C91B30B901009D2247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 268F977C1B30B8BC009D2247 /* Project object */;
+}
